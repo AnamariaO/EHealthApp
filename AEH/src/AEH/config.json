@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "AEH"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-AEH-b8107c65-3ac8-4ebc-afb3-dee4f2ce6667;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
