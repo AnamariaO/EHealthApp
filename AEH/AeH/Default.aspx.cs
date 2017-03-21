@@ -5,13 +5,14 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace AeH
 {
     
 
     public partial class _Default : Page
     {
-        public string user=" ";
+        static string user=" ";
         protected void Page_Load(object sender, EventArgs e)
         {                      
             Label1.BackColor = System.Drawing.Color.Transparent;
@@ -51,7 +52,10 @@ namespace AeH
 
         protected void but_log_Click(object sender, EventArgs e)
         {
-            
+            if (user == "pacient")
+                Response.Redirect("Pacient.aspx");
+            else if(user == "medic")
+                Response.Redirect("Medic.aspx");
         }
 
        

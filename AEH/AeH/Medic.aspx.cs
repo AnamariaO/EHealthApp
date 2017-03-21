@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace AeH
 {
-    public partial class PA : System.Web.UI.Page
+    public partial class Medic : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
